@@ -8,6 +8,8 @@ on:
   pull_request:
     branches:
       - master
+  # allow manual dispatches
+  workflow_dispatch:
 
 jobs:
   build:
